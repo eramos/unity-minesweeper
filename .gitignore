@@ -1,0 +1,40 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Logs/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+.vs/
+.vscode/
+
+# =============== #
+# Custom #
+# =============== #
+.gradle/
+Thumbs.db
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.dll
+*.lib
