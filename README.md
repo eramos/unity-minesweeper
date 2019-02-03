@@ -20,7 +20,7 @@ Open sourced version of Kim's Nukesweeper: https://gamejolt.com/games/nukesweepe
 - Eduardo Ramos [eramos](https://github.com/eramos)
 
 ## License
-This project is licensed under the GNU 3.0 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## TODO
 - Randomize slots number
