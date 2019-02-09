@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 /// <summary>  
 ///  Music manager 
@@ -42,18 +42,17 @@ public class MusicManager : MonoBehaviour {
     public void StartAudio () {
         // Randomize the selected song
         if (clips.Length > 0) {
-            int randClip = Random.Range(0, clips.Length);
+            int randClip = Random.Range (0, clips.Length);
             audioSource.clip = currentClip = clips[randClip];
-            audioSource.Play();
+            audioSource.Play ();
             isPlaying = true;
 
             i++;
-            if (i >= clips.Length)
-            {
+            if (i >= clips.Length) {
                 i = 0;
             }
 
-            Invoke("StartAudio", audioSource.clip.length + 0.5f); // 0.5f is the delay given after a song is over.
+            Invoke ("StartAudio", audioSource.clip.length + 0.5f); // 0.5f is the delay given after a song is over.
         }
     }
 

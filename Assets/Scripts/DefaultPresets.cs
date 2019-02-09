@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 /// <summary>  
 ///  Set default player's preferences 
 /// </summary> 
 public class DefaultPresets : MonoBehaviour {
-    [Header("Personalized stats")]
+    [Header ("Personalized stats")]
     public string minesFoundKey = "MinesFound";
     public string clearBoxesFoundKey = "BoxesFound";
 

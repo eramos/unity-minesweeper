@@ -1,11 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>  
 ///  Show the current game status on UI
 /// </summary> 
 public class UICounter : MonoBehaviour {
-    [Header("Personalized messages")]
+    [Header ("Personalized messages")]
     public string clearBoxText = "Boxes left";
     public string gameWonText = "YOU WON!";
 
@@ -28,7 +28,7 @@ public class UICounter : MonoBehaviour {
     void Update () {
         clearBoxes = gameController.GetClearBoxes ();
         if (clearBoxes > 0) {
-            text.text = clearBoxText+": " + gameController.GetClearBoxes ();
+            text.text = clearBoxText + ": " + gameController.GetClearBoxes ();
         } else {
             text.text = gameWonText;
         }
